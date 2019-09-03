@@ -1,0 +1,10 @@
+#!/bin/bash
+
+read x
+read y
+
+#echo "x: $x, y: $y"
+echo $((x + y))
+echo $((x - y))
+echo $((x * y))
+echo $((x / y))
